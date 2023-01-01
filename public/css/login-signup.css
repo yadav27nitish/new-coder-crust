@@ -128,7 +128,7 @@ form{
 
 .option a{
   text-decoration: none!important;
-  color: #20dbc2;
+  color: #8cbe23;
 }
 
 .option a:hover{
@@ -138,7 +138,7 @@ form{
 
 .check{
   padding-bottom: 5px;
-  color: #20dbc2;
+  color: #8cbe23;
   text-align: left;
   font-size: 1.5rem;
 }
@@ -148,12 +148,13 @@ form{
     padding: 12px 25px;
     width: 150px;
     border: none;
-    color: #0a4d46 !important;
-    font-size: 15px;
-    font-weight: bold;
+    border-radius: 10px;
+    color: #f6f4ff;
+    font-size: 18px;
+    font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background: #20dbc2 !important;
+    background-color: #8cbe23;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -162,8 +163,9 @@ form{
   }
   
   .btn-style:hover{
-    background: #3a8d82 !important;
-    color: #fff !important;
+    background-color: #4c6c05; 
+    color: #a4ea0f!important;
+    cursor: pointer;
   }
 
 
