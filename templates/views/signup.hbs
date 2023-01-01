@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="css/login-signup.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+</head>
+<body>
+	<img class="wave" src="images/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="images/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="images/avatar.svg">
+				<h3 class="title">Welcome to coder crust</h3>
+
+
+				<div class="input-field">
+					<i class="fas fa-user"></i>
+					<input type="text" placeholder="Username" required name="firstname" autocomplete="off">
+				  </div>
+
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" name="email"  required autocomplete="off">
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" required name="password"  autocomplete="off"> 
+            {{!-- pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"  --}}
+          </div>
+
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Confirm Password" required name="cpassword" autocomplete="off"> 
+          </div> 
+
+          <div class="check">
+            <input type="checkbox" class="checkbox"><span> I agree terms & conditions</span>
+          </div>
+
+          <input type="submit" id="submit" class="btn-style"  value="Sign Up">
+				  <div class="option">
+					<a href="#">Forgot Password</a>
+					<p>Already have account? <a href="./login">Login</a></p>
+				  </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
