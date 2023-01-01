@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <title>Contac Us</title>
+</head>
+<body>
+  {{>navbar}}
+  <div class="container-fluid mt-5 contact-style"  id="contact">
+    <div class="row">
+       <div class="main-contact col-md-12 col-12 mx-auto">
+          <h1 class="text-center main-heading">Contact Us</h1>
+          <p  class="text-center sub-heading">Feel Free to reach out for any query</p>
+          <div class="row">
+             <div class="col-md-6 col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d459502.47240363853!2d83.8773156292918!3d25.873983900783404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992656ce6f079df%3A0x93419c5c2b5d6796!2sBallia%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1660833071122!5m2!1sen!2sin" 
+                   width="100%" height="300" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+             </div>
+             {{!-- right side --}}
+             <div class="col-md-6 col-12">
+                <div class="contact-fix col-md-6">
+                    <form action="/contact" method="POST">
+                      <div class="login-content">
+                      <div class="row">
+                          <div class="input-field col-12">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="First Name" required name="firstname" autocomplete="off">
+                          </div>
+                          <div class="input-field col-12">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Email" name="email" autocomplete="off" required>
+                          </div>
+                          <div class="input-field col-12">
+                            <i class="fas fa-phone"></i>
+                            <input type="phone" placeholder="Phone" name="phone" autocomplete="off" required>
+                          </div>
+                          <div class="input-field col-12">
+                            <i class="fas fa-envelope"></i>
+                            <input type="text" placeholder="Your Message" name="firstname" autocomplete="off" required>
+                          </div>
+                            <div class="check">
+                                <input type="checkbox" class="checkbox" onchange="activateButton(this)"><span> I agree terms & conditions</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="btn-style btn-primary" type="submit"> Submit </button>
+                    </form>
+                  </div>
+                  </div>
+          </div>
+       </div>
+    </div>
+ </div>
+ {{>footer}}
+ <script src="../javaScript/script.js"></script>
+</body>
+</html>
