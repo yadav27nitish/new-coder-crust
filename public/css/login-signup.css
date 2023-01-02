@@ -11,7 +11,7 @@
     font-family: 'Nunito', sans-serif;
 }
 body {
-    background: #000000;
+    background: #FFF;
 }
 
 html{
@@ -40,6 +40,7 @@ html{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center; 
+  
 }
 
 .login-content{
@@ -63,10 +64,10 @@ form{
 
 .login-content h3{
 	margin: 15px 0;
-	color: #f0f0f0ef;
+	color: #8cbe23;
 	text-transform: uppercase;
 	font-size: 2rem;
-  font-weight: lighter;
+  font-weight: bolder;
 }
 
 .login-content .input-field{
@@ -75,9 +76,11 @@ form{
     grid-template-columns: 7% 93%;
     margin: 10px 0;
     padding: 3px 0;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 2px solid #8cbe23;
 }
-
+/* .login-content .avatar{
+border-color: #8cbe23!important;
+} */
 
 .login-content .input-field.one{
 	margin-top: 0;
@@ -88,7 +91,7 @@ form{
   padding-right: 30px;
   text-align: left;
   line-height: 55px;
-  color: #d9d9d9;
+  color: #8cbe23;
   font-size: 1.5rem;
 }
 
@@ -100,7 +103,7 @@ form{
   line-height: 1;
   font-weight:lighter;
   font-size: 1.5rem;
-  color: #f0f0f0;
+  color: #000;
 }
 
 
@@ -121,19 +124,27 @@ form{
 
 .option{
   padding: 2.5rem;
-  color: #FFF;
+  color: #000000;
   font-size: 15px;
   text-align: left;
+}
+
+.option p{
+  color: #000000;
+  font-size:medium;
+  /* font-weight: bold; */
 }
 
 .option a{
   text-decoration: none!important;
   color: #8cbe23;
+  /* font-weight: bold; */
 }
 
 .option a:hover{
   text-decoration: none!important;
-  color: hotpink;
+  font-weight: bolder;
+  color: #4c6c05;
 }
 
 .check{
