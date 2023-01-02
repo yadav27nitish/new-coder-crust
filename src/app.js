@@ -325,8 +325,8 @@ app.get('/contact',(req,res)=>{
     res.render("contact");
 })
 
-app.get('/aboutusfile',(req,res)=>{
-    res.render("aboutusfile");
+app.get('/aboutus',(req,res)=>{
+    res.render("aboutus");
 })
 
 app.post('/contact', async(req,res)=>{

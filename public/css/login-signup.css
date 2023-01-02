@@ -64,7 +64,7 @@ form{
 
 .login-content h3{
 	margin: 15px 0;
-	color: #8cbe23;
+	color: #000000;
 	text-transform: uppercase;
 	font-size: 2rem;
   font-weight: bolder;
@@ -76,7 +76,7 @@ form{
     grid-template-columns: 7% 93%;
     margin: 10px 0;
     padding: 3px 0;
-    border-bottom: 2px solid #8cbe23;
+    border-bottom: 2px solid #000000;
 }
 /* .login-content .avatar{
 border-color: #8cbe23!important;
@@ -132,12 +132,13 @@ border-color: #8cbe23!important;
 .option p{
   color: #000000;
   font-size:medium;
-  /* font-weight: bold; */
+  font-weight: bold;
 }
 
 .option a{
   text-decoration: none!important;
   color: #8cbe23;
+  font-weight: bold;
   /* font-weight: bold; */
 }
 

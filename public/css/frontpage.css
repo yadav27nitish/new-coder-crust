@@ -11,7 +11,7 @@
     font-family: 'Nunito', sans-serif;
 }
 body {
-    background: #e3e9f7;
+    background: #fff;
 }
 /* NAVBAR CSS START */
 img {
@@ -23,9 +23,10 @@ header {
     background: #000000;
     display: flex;
     align-items: center;
+    text-align:center!important;
     justify-content: space-between;
     padding: 0 40px;
-    /* border-radius: 0 0 10px 10px; */
+    /* position: sticky; */
     margin: 0 auto;
 }
 .logo {
@@ -37,6 +38,12 @@ nav .logo {
 }
 nav ul {
     display: flex;
+    /* text-align:center!important; */ 
+}
+nav li {
+    display: inline;
+    text-align:center!important; 
+    margin-top: 15px;
 }
 nav ul li a {
     color: #fff;
@@ -50,6 +57,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #f6f4ff;
     color: #000000;
+    text-decoration: none;
 }
 nav ul li a.active {
     color: #fff;
@@ -116,7 +124,6 @@ nav ul li a.active {
         display: block;
     }
 }
-
 
 /* NAVBAR CSS END */
 
@@ -206,3 +213,47 @@ nav ul li a.active {
 }
 }
 /* FOOTER CSS END */
+
+
+
+/* INDEX CSS START */
+
+.container-fluid{
+    padding-top: 70px;
+}
+
+/* .hero-text{
+    width: 500px;
+    width: 500px;
+} */
+
+.hero-text h1 {
+font-size: 2rem;
+line-height: 1.5;
+text-shadow: 5px 4px 11px rgba(234, 226, 226, 0.26);
+letter-spacing: 1px;
+color: #000000;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2) {
+font-weight: bold;
+color: #8cbe23;
+}
+
+.hero-text p{
+font-size: 1.2rem;
+margin-top: 1rem;
+color: #000000;
+}
+
+.hero-text p span {
+    font-weight: bold;
+    color: #4c6c05;
+  }
+  
+figure{
+    width: 400px;
+    height: 400px;
+}

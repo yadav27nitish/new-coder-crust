@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap'); */
-/* 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-} */
 
 *{
   margin: 0;
@@ -75,13 +65,18 @@ body{
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
-  color: #afafb6;
+  color: #8b8b8e;
+  font-weight: bold;
 }
 
 
 .container .content .right-side{
   width: 75%;
   margin-left: 75px;
+}
+
+.right-side p{
+  font-weight: bold;
 }
 .content .right-side .topic-text{
   font-size: 23px;
