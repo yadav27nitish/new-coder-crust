@@ -222,10 +222,6 @@ nav ul li a.active {
     padding-top: 70px;
 }
 
-/* .hero-text{
-    width: 500px;
-    width: 500px;
-} */
 
 .hero-text h1 {
 font-size: 2rem;
@@ -234,6 +230,7 @@ text-shadow: 5px 4px 11px rgba(234, 226, 226, 0.26);
 letter-spacing: 1px;
 color: #000000;
 letter-spacing: 2px;
+font-weight: bold;
 text-transform: uppercase;
 }
 
@@ -250,10 +247,123 @@ color: #000000;
 
 .hero-text p span {
     font-weight: bold;
-    color: #4c6c05;
+    color: #8ecb0b;
   }
   
 figure{
     width: 400px;
     height: 400px;
+}
+
+/* Index CSS END */
+
+/* TITORIAL CSS START */
+
+.box {
+position: relative;
+width: 100%;
+/* height: 10%; */
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+.our-services {
+margin-top: 75px;
+padding: 0 30px;
+min-height: 230px;
+text-align: center;
+color: #8cbe23;
+border-radius: 10px;
+background: #000000;
+transition: all 0.4s ease-in-out;
+box-shadow: 0 0 20px 0 #000000;
+}
+
+.our-services .icon {
+margin-bottom: -21px;
+transform: translateY(-50%);
+/* text-align: center; */
+margin-left: 100px;
+height: 100px;
+width: 100px;
+
+}
+
+.our-services a {
+font-size: 1.5rem;
+font-weight: lighter;
+color: #fff;
+}
+
+.fra:hover,
+.fra:hover p{
+color: #8cbe23;
+text-decoration: none!important;
+font-weight: bold;
+}
+
+.our-services p {
+font-size: 1.3rem;
+color: #8cbe23;
+}
+
+
+.our-services:hover h4,
+.our-services:hover p {
+color: #fff;
+}
+
+.main-heading{
+text-shadow: 5px 4px 11px rgba(234, 226, 226, 0.26);
+text-transform: uppercase;
+font-size: 2.5rem;
+color: #000000;
+letter-spacing: 1px;
+font-weight: bold;
+}
+
+.sub-heading{
+font-size: 2rem;
+letter-spacing: 3px;
+line-height: 2;
+color: #8cbe23;
+font-weight: 500;
+text-shadow: 5px 4px 11px rgba(201, 199, 199, 0.26);
+}
+
+.speedup:hover {
+box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #d6225e 0%, #b84d2c 50%);
+}
+
+.settings:hover {
+box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #238991 0%, #230e5c 50%);
+}
+
+.privacy:hover {
+box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #3920c9 0%, #278de6 50%);
+}
+
+.backups:hover {
+box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #e25a05 0%, #ca8008 50%);
+}
+
+.ssl:hover {
+box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #7927ec 0%, #3330db 50%);
+}
+
+.database:hover {
+box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+cursor: pointer;
+background-image: linear-gradient(-45deg, #078962 0%, #06aa4d 50%);
 }
