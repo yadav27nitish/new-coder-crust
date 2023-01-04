@@ -4,15 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
     <link rel="stylesheet" href="css/aboutus.css">
     <title>Aboutus</title>
 </head>
 <body>
-    <div class="grow-container">
-        <p  style="color:black" class="grow-text"><span>GROW</span> <br/>with US</p>
+    {{>navbar}}
+    <div class="grow-container mt-6">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 order-md-0 order-1 d-flex justify-content-center algin-item-start flex-column">
+                        <p  style="color:black" class="grow-text"><span>GROW</span> <br/>with <br> US</p>
+                    </div>
+                    <div class="col-md-6 col-12 order-md-1 order-0">
+                        <img class="grow-image" src="/images/growing-up-2112531.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <img class="grow-image" src="/images/growing-up-2112531.png" alt="">
     </div>
 
     <!-- Slider -->
@@ -53,169 +65,169 @@
 
     <!-- About us -->
     <div class="about-us">
-
         <div class="about-head">
-            <hr style="height: 2px;" class="about-head-line">
-            <p class="about-head-text">About US</p>
+          <hr class="about-head-line">
+          <p class="about-head-text">About us</p>
         </div>
+        <div class="container mt-5">
+          <div class="col-md-12 col-12 check">
+            <div class="col-md-6 subcheck">
+              <div class="card p-2 py-10">
+                <div class="text-center">
+                  <img src="/images/ravi3.png" class="rounded-circle">
+                </div>
+                <div class="text-center mt-3">
+                  <span class="bg-dark p-1 px-4 rounded text-white">Founder</span>
+                  <h5 class="mt-2 mb-0" >Ravi Kumar</h5>
+                  <span>software Engineer</span>
+                  <div class="px-6 mt-1">
+                    <p class="fonts">
+                      Hello students, I'm Ravi Kumar Chaudhary and the founder of codecrust
+                      and the student of Lovely Professional University Punjab.
+                      Currenlty I am software development engineer in SYSCLOUD.
+                      I created this platform to learn languages and Data Structure
+                      and algorithm free of cost. Our motive to the students is
+                      "KEEP LEARNING AND KEEP GROWING"
+                      WELCOME IN CODERCUST
+                    </p>
+                  </div>
+                  <div class="social-list">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+                  <div class="buttons">
+                    <button class="btn btn-outline-primary px-4">Message</button>
+                    <button class="btn btn-primary px-4 ms-3">Contact</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div style="margin-left: 50px; color:white" class="about-content">
+            <div class="col-md-6 subcheck">
+                <div class="card p-2 py-10">
+                  <div class="text-center">
+                    <img src="/images/virtual-assistant-2130746(1).png" class="rounded-circle">
+                  </div>
+                  <div class="text-center mt-3">
+                    <span class="bg-dark p-1 px-4 rounded text-white">Co-Founder</span>
+                    <h5 class="mt-2 mb-0" >Nitish Yadav</h5>
+                    <span>software Engineer</span>
+                    <div class="px-6 mt-1">
+                      <p class="fonts">
+                        Hello students, I'm Nitish Kumar Yadav and the Co-founder of codecrust
+                        and the student of Lovely Professional University Punjab.
+                        Currenlty I am software developer in SYSCLOUD.
+                        Our motive to the students is
+                        "KEEP LEARNING AND KEEP GROWING"
+                        WELCOME IN CODERCUST
+                      </p>
+                    </div>
+                    <div class="social-list">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="buttons">
+                      <button class="btn btn-outline-primary px-4">Message</button>
+                      <button class="btn btn-primary px-4 ms-3">Contact</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+          </div>
+        </div>
+    </div>
+
+
+    <div class="about-team">
+        <p>Our Talented<br/><span>Team</span></p>
             <div class="about-content-left">
+                <div class="team-members">
 
-                <div class="profile-card about-profile-card">
-                    <img class="card-image" src="/images/ravi1.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Ravi Kumar Chaudhary</h4>
-                        <p>Founder of codercrust</p>
-                        <p  style="font-size:medium; color:white">Hello Coders, I'm Ravi Kumar Chaudhary and the founder of codecrust <br>and the student of Lovely Professional University Punjab. <br>Currenlty I am software development engineer in SYSCLOUD. <br>I created this platform to learn languages and Data Structure <br>and algorithm free of cost. Our motive to the students is <br> "KEEP LEARNING AND KEEP GROWING"  
-                        <br>WELCOME IN CODERCUST
-                        </p>
-                        <div class="card-social">
-                            <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href=""><i class="fa fa-github fa-lg"></i></a>
-							              <a href=""><i class="fa fa-envelope fa-lg"></i></a>
+                    <div class="profile-card">
+                        <img src="/images/pb_best6.jpg" class="profile-image">
+                        <div class="card-info">
+                            <h4>Prachi Bhardwaj</h4>
+                            <h6>Frontend Developer</h6>
+                            <p>small I am Prachi Bhardwaj, software development Engineer in IBM. Go through our created
+                                content and explore the things and improve your coding skills.
+                                Thank You!
+                                
+                                  </p>
+                            <div class="card-social">
+                                <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href=""><i class="fa fa-github fa-lg"></i></a>
+                                <a href=""><i class="fa fa-envelope fa-lg"></i></a>
+                            </div>
                         </div>
                     </div>
+                    <br> <br>
                 </div>
 
-                <div class="profile-card about-profile-card">
-                    <img class="card-image" src="/images/pb_best3.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Nitish Yadav</h4>
-                        <h6>Co-founder of codercrust</h6>
-                        <p>I am Nitish Yadav and cofounder of codecrust <br> I am the student of Lovely professional University Punjab <br> and software development Engineer in Syscloud. Go through our created <br> content and explore the things and improve you coding skills. <br>
-                            Thank You! </p>
-                        <div class="card-social">
-                            <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href=""><i class="fa fa-github fa-lg"></i></a>
-							<a href=""><i class="fa fa-envelope fa-lg"></i></a>
+                <div class="team-members">
+
+                    <div class="profile-card">
+                        <img class="profile-image" src="/images/4.png" alt="">
+                        <div class="card-info">
+                            <h4>Vimal Kushwaha</h4>
+                            <h6>Frontend Developer</h6>
+                            <p>I am Vimal Kushwaha, software development Engineer in IBM. Go through our created
+                                content and explore the things and improve your coding skills.
+                                Thank You!</p>
+                            <div class="card-social">
+                                <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
+                                <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href=""><i class="fa fa-github fa-lg"></i></a>
+                                <a href=""><i class="fa fa-envelope fa-lg"></i></a>
+                            </div>
                         </div>
                     </div>
+                    <br> <br>
                 </div>
+
             </div>
 
-            <div class="about-content-right">
-                <p>CoderCrust is developed in order to help students to learn in the most student friendly enviornment with the vision to enhance their knowledge with daily practice and latest updated course content
-			</div>
-
+        <div class="about-content-right">
+            <p>CoderCrust is developed in order to help students to learn in the most student friendly enviornment with the vision to enhance their knowledge with daily practice and latest updated course content
         </div>
 
-        <div class="about-team">
-            <p>Our Talented<br/><span>Team</span></p>
-
-           <div class="team-members">
-
-                <div class="profile-card">
-                    <img class="card-image" src="/images/pb_best6.jpg" alt="">
-                    <div class="card-info">
-                        <h4>Prachi Bhardwaj</h4>
-                        <h6>Frontend Developer</h6>
-                        <p>I am Nitish Yadav and cofounder of codecrust <br> I am the student of Lovely professional University Punjab <br> and software development Engineer in Syscloud. Go through our created <br> content and explore the things and improve you coding skills. <br>
-                            Thank You! </p>
-                        <div class="card-social">
-                            <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href=""><i class="fa fa-github fa-lg"></i></a>
-							<a href=""><i class="fa fa-envelope fa-lg"></i></a>
-                        </div>
-                    </div>
-                </div>
-				      <br> <br>
-            </div>
-            <br>
-
-
-            <div class="team-members">
-
-                <div class="profile-card">
-                    <img class="card-image" src="/images/4.png" alt="">
-                    <div class="card-info">
-                        <h4>Vimal Kushwaha</h4>
-                        <h6>Frontend Developer</h6>
-                        <p>small description of the person asdf asdf asdf </p>
-                        <div class="card-social">
-                            <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href=""><i class="fa fa-github fa-lg"></i></a>
-							<a href=""><i class="fa fa-envelope fa-lg"></i></a>
-                        </div>
-                    </div>
-                </div>
-				      <br> <br>
-            </div>
-            
-        </div>
-		<!--
-		<div class="about-team">
-		  <p>Our Talented<br/><span>Team</span></p>
-		  <div class="team-members">
-		        <div class="profile-card">
-                    <img class="card-image" src="./img/afzal2.png" alt="">
-                    <div class="card-info">
-                        <h4>Afzal Mansuri</h4>
-                        <h6>Photo Designer</h6>
-                        <p>small description of the person asdf asdf asdf </p>
-                        <div class="card-social">
-                            <a href=""><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href=""><i class="fa fa-github fa-lg"></i></a>
-							<a href=""><i class="fa fa-envelope fa-lg"></i></a>
-                        </div>
-                    </div>
-                </div>
-		</div>
-		</div>
-    
     </div>
-    
 
-    <!-- <div class="slide-section" id="slideshow">
-        <div class="slider">
-            <p>Learn DSA</p>
-            <img src="../logo/CC_Symbol_Transparent.png" alt="">
-            <button><a href="">start now</a></button>
-        </div>
-        <div class="slider">
-            <p>Learn C++</p>
-            <img src="../logo/CC_Symbol_Transparent.png" alt="">
-            <button><a href="">start now</a></button>
-        </div>
-        <div class="slider">
-            <p>Learn HTML & CSS</p>
-            <img src="../logo/CC_Symbol_Transparent.png" alt="">
-            <button><a href="">start now</a></button>
-        </div>
-    </div>
-    -->
-  <br><br>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>
-        $("#slideshow > div:gt(0)").hide();
 
-            setInterval(function () {
-                $('#slideshow > div:first')
-                    .fadeOut(1000)
-                    .next()
-                    .fadeIn(1000)
-                    .end()
-                    .appendTo('#slideshow');
-            }, 3000);
-    </script>
-    <script type="text/javascript" src="../js/mobile.js"></script>
-    <script src="../TodoList/js/main.js"></script>
-  <script src="../javaScript/script.js"></script>
+        
+
+{{>footer}}
+<br><br>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $("#slideshow > div:gt(0)").hide();
+
+        setInterval(function () {
+            $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+        }, 3000);
+</script>
+<script type="text/javascript" src="../js/mobile.js"></script>
+<script src="../TodoList/js/main.js"></script>
+<script src="../javaScript/script.js"></script>
 </body>
 
 </html>

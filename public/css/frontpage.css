@@ -140,9 +140,9 @@ nav ul li a.active {
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-  padding: 30px 0;
-  margin-top: 3rem;
+    background-color: #24262b;
+    padding: 30px 0;
+    margin-top: 3rem;
 }
 .footer-col{
    width: 25%;
